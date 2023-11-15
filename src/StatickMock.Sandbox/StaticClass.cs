@@ -1,4 +1,4 @@
-﻿namespace StatickMock.Sandbox;
+﻿namespace StaticMock.Sandbox;
 
 public static class StaticClass
 {

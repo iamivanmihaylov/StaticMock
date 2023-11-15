@@ -1,7 +1,7 @@
 ﻿using System.Linq.Expressions;
 
-namespace StatickMock;
-public class MockStatic
+namespace StaticMock;
+public class MockStatic : IDisposable
 {
     public MockStatic(Expression expression)
     {
@@ -145,6 +145,11 @@ public class MockStatic
         throw new NotImplementedException();
     }
     public MockStatic Compile()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void Dispose()
     {
         throw new NotImplementedException();
     }

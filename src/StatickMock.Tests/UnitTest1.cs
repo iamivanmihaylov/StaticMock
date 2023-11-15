@@ -1,4 +1,4 @@
-namespace StatickMock.Tests;
+namespace StaticMock.Tests;
 
 public class UnitTest1
 {

@@ -1,4 +1,4 @@
-﻿namespace StatickMock;
+﻿namespace StaticMock;
 
 public class MockStaticResult
 {
