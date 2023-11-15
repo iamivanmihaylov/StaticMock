@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+
+	<PropertyGroup>
+		<InterceptorsPreviewNamespaces>$(InterceptorsPreviewNamespaces);StaticMock.Sandbox</InterceptorsPreviewNamespaces>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\StatickMock\StaticMock.csproj" />
+	</ItemGroup>
+
+</Project>
+
