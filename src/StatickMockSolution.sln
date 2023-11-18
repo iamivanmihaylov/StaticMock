@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticMock", "StatickMock\S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticMock.Tests", "StatickMock.Tests\StaticMock.Tests.csproj", "{27E65128-F5A4-4B5C-9811-D6849483A4D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticMock.SourceGenerator", "StaticMock.SourceGenerator\StaticMock.SourceGenerator.csproj", "{C9D5316F-76F9-4B7E-A3EF-BD47195D9E4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{27E65128-F5A4-4B5C-9811-D6849483A4D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27E65128-F5A4-4B5C-9811-D6849483A4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27E65128-F5A4-4B5C-9811-D6849483A4D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9D5316F-76F9-4B7E-A3EF-BD47195D9E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D5316F-76F9-4B7E-A3EF-BD47195D9E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D5316F-76F9-4B7E-A3EF-BD47195D9E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D5316F-76F9-4B7E-A3EF-BD47195D9E4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
